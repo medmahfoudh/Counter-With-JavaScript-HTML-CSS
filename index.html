@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Counter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <h1>اللهم صلِّ وسَلِّم على سيدنا محمد</h1>
+        <p id="plus"></p>
+        <button onclick="res()">حذف</button>
+        <button onclick="dec()">تراجع</button>
+        <button onclick="inc()">إضافة</button>
+
+    </div>
+
+    <script>
+        
+        let counter = 0;
+        function inc(){
+            counter++;
+            document.getElementById("plus").innerHTML = counter;
+        }
+        function dec(){
+            counter--;
+            document.getElementById('plus').innerHTML = counter;
+        }
+        function res(){
+            counter = 0;
+            document.getElementById('plus').innerHTML=counter;
+        }
+    </script>
+
+
+    
+    
+</body>
+</html>

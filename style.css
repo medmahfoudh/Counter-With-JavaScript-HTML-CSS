@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300&family=Nunito:wght@500&family=PT+Sans&family=Playfair+Display:ital,wght@1,500&family=Ubuntu:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+    background:linear-gradient(120deg, #207bdc, rgba(221, 38, 221, 0.933)) ;
+}
+body{
+    height: 100%;
+
+}
+
+.center{
+    color: aliceblue;
+    text-align: center;
+    padding: 220px 0 220px 0;
+}
+.center button{
+    margin: 6px;
+    padding: 12px;
+    background: #207bdc;
+    color: #fefefe;
+    cursor: pointer;
+}
